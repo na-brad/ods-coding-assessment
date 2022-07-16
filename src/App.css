@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.appBar {
+  background: #11172b !important;
+  font-family: whitney;
+}
+
+.box {
+  background: #e5e5e5;
+  height:100vh
+}
+
+.dataGrid {
+  height: 70vh;
+  width: 100%;
+  margin-top: 10vh;
+}
+
+.autoComplete {
+  height: 80vh;
+  width: 100%;
+}
+
+.autoCompleteMenu {
+  position: absolute;
+  z-index: 10;
+}
+
+.logo {
+  max-width: 80px;
+  max-height: 80px;
+  margin-left: -3vh;
+}
+
+body {
+  font-family: Verdana;
+  line-height: 1.5;
+  height: 100vh;
+}
+
+.no-suggestions {
+  color: #999;
+  padding: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.suggestions {
+  border-top-width: 0;
+  list-style: none;
+  margin-top: 0;
+  max-height: 143px;
+  overflow-y: auto;
+  padding-left: 0;
+  width: 300px;
+  background-color: white;
+  z-index: 10;
+}
+
+.suggestions li {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.suggestions li:hover {
+  color: black;
+  cursor: pointer;
+  font-weight: 700;
+  z-index: 10;
+}
